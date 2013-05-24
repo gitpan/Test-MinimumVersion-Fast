@@ -30,11 +30,11 @@ no_index:
 provides:
   Test::MinimumVersion::Fast:
     file: lib/Test/MinimumVersion/Fast.pm
-    version: 0.01
+    version: 0.02
 requires:
   File::Find::Rule: 0
   File::Find::Rule::Perl: 0
-  Perl::MinimumVersion::Fast: 0.03
+  Perl::MinimumVersion::Fast: 0.06
   Test::Builder: 0
   YAML::Tiny: 1.40
   parent: 0
@@ -44,4 +44,4 @@ resources:
   bugtracker: https://github.com/tokuhirom/Test-MinimumVersion-Fast/issues
   homepage: https://github.com/tokuhirom/Test-MinimumVersion-Fast
   repository: git://github.com/tokuhirom/Test-MinimumVersion-Fast.git
-version: 0.01
+version: 0.02
